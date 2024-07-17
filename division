@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+  int a,b,quotient;
+    printf("enter the number\n");
+    scanf("%d",&a);
+    printf("enter the number\n");
+    scanf("%d",&b);
+    quotient=a/b;
+    printf("quotient=%d\n",quotient);
+}
